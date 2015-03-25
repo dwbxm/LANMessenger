@@ -38,6 +38,4 @@ ApplicationWindow {
         anchors { bottom: parent.bottom; bottomMargin: 5; right: sendButton.left; rightMargin: 5; left: parent.left; leftMargin: 5 }
         onAccepted: sendButton.clicked()
     }
-
-
 }
